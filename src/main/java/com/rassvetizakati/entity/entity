@@ -1,0 +1,22 @@
+University - Order
+id
+universityName
+
+@OneToMany
+students  - Meal in Order
+---------------
+Student
+id
+name
+age
+
+university
+events
+---------------
+Event - Meal (связь многие ко многим)
+id
+eventTitle
+eventDescription
+LocalDateTime eventStart
+
+students
